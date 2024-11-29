@@ -2,11 +2,13 @@ html {margin: 0;
      display: flex; 
      justify-content: center;  
      align-items: center;  }
+     
+/*body{text-align: center;}*/
 
 span{text-transform: uppercase;}
 
-header div {background-color:hsla(54, 88%, 54%, 0.162);height: 2em; }
-header p {font-weight: bold;}
+header div {background-color:hsla(54, 88%, 54%, 0.162);height: 2em; border-top: 1px solid rgb(255, 196, 4);}
+header p {font-weight: bold; padding: 0.5em;}
 h1 {font-weight: bold; font-size: 2em; font-family: serif;}
 
 #logo{width: 30%;}
@@ -16,4 +18,4 @@ hr {border: none; height: 0.1em; }
 #focaccia {border-radius: 5%;}
 
 .color {color: darkcyan;}
-#futured{color: brown;}
+#futured{color: brown; text-align: center;}
