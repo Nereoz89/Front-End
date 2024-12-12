@@ -1,0 +1,40 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url(../img/tombola.jpg);
+}
+
+.grid {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.grid div {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    align-items: center;
+    border: 1px solid #000;
+    
+}
+
+#number{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.selected {
+    background-color: bisque;
+}
+
+button{
+    margin-top: 15%;
+    position: absolute; 
+    top: 50%; 
+    left: 45%;
+    border: none;
+    padding: 2em;
+    background-color:bisque;
+    border-radius: 10%;
+    font-size: 1em
+}
