@@ -225,7 +225,7 @@ footer a {
 
 
 
-@media screen and (min-width:769px) and (max-width: 1200px) {
+@media screen and (min-width:769px) {
 
     header{
         text-align: start;
@@ -235,17 +235,21 @@ footer a {
 
     header div{
     display: inline-block;
+    /* margin-right: 10%; */
     
 }
 
 header img{
-    max-width: 20%;
-   margin-bottom: 0;
+    max-width: 40%;
+   margin-left: 2em;
+   margin: 0;
     
 }
 header p{
     display: inline-block;
-    text-align: start;
+    text-align: center;
+    position: absolute;
+    margin-left: 2em;;
     margin-bottom: 0px;
     padding: 0;
 }
@@ -253,7 +257,9 @@ header p{
 
 nav{
     display: inline-block;
-    text-align: end;
+    position: absolute; 
+    right: 0;
+    
 }
 
 table{
